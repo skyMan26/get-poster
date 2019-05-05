@@ -141,7 +141,7 @@ class App extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    if(this.state.term && this.state.term.trim() != ""){
+    if(this.state.term && this.state.term.trim() !== ""){
     const api_key = '53848681c64461ef915affdd04ebb440';
     const movieURL = `https://api.themoviedb.org/3/search/movie?api_key=${api_key}&query=${this.state.term}`;
     fetch(movieURL)
