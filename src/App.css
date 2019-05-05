@@ -8,6 +8,17 @@
   pointer-events: none;
 }
 
+body{      
+    background-position: center;
+    background-size: cover;
+}
+
+.image-border{  
+  margin-top: 5%;
+  margin-left: 15%
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
